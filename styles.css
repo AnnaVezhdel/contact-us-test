@@ -47,19 +47,26 @@ margin-bottom: 32px;
     border: 1px solid rgba(12, 12, 12, 0.15);
     border-radius: 12px;
     background-color: transparent;
+    font-weight: 400;
+font-size: 16px; 
+line-height: 1.25;
+color: #0c0c0c;
+}
+.form-input.comment {
+    margin-bottom: 32px;
+    min-height: 90px;
 }
 .input-container {
     display: flex;
     flex-direction: column;
     gap: 18px;
-    margin-bottom: 32px;
 }
 .form-btn {
     cursor: pointer;
     font-weight: 500;
 font-size: 14px;
-line-height: 1.28;
 color: #fbfbfb;
+line-height: 1.29;
 background: #3350e9;
 min-width: 160px;
 height: 52px;

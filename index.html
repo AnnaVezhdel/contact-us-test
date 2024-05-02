@@ -21,10 +21,10 @@
             <p class="contact-form-text">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</p>
             <form class="contact-us-form" name="contact-us-form">
                 <div class="input-container">
-                <input type="text" class="form-input" name="user-name" placeholder="Name" />
-                <input type="email" class="form-input" name="user-email" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"/>
-                <input type="tel" class="form-input" name="user-tel" placeholder="+380" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" />
-                <textarea class="form-input" name="user-comment" placeholder="Comment"></textarea>
+                <input type="text" class="form-input" name="user-name" placeholder="Name" required />
+                <input type="email" class="form-input" name="user-email" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required />
+                <input type="tel" class="form-input" name="user-tel" placeholder="+380" pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" (+380-XX-XXX-XX-XX) required />
+                <textarea class="form-input comment" name="user-comment" placeholder="Comment"></textarea>
                 </div>
                 <button type="submit" class="form-btn">Send</button>
             </form>
